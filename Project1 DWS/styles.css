@@ -1,39 +1,99 @@
 /*CSS styling for project 2*/
 
 
+
 /*Main Body Background color*/
 body{
-    background-color: rgba(150,238,255,.3);
+
+    background-color: rgba(60,174,224,.3);
+    width: 80%;
+    margin:  auto;
+    padding: 30px;
+
+
+
 }
 
 /*H1 styling with google fonts*/
 h1{
-    color: rgb(255,255,255);
+    color: #ffffff;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 50pt;
     line-height: 1;
     text-align: center;
     text-shadow: 2px 2px #000000;
+
+}
+
+/*List styling*/
+
+
+
+
+nav {
+
+    height: 84px;
+}
+/*Div so i can set the "table" to be centered*/
+.table {
+    display: table; /* Allow the centering to work */
+    margin: 0 auto;
 }
 
 
+li {
 
-/* unvisited link */
-a:link {
-    color: #3CAEE0;
+    font-family: monospace;
+    min-width: 696px;
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    display: inline;
+    border-style: double;
+    border-radius: 20%;
+    font-size: 22pt;
+
 }
 
-/* visited link */
-a:visited {
-    color: #57616B;
+   	 /* unvisited link */
+    	a:link {
+        	color: #3CAEE0;
+        	text-decoration: none;
+    	}
+
+    	/* visited link */
+    	a:visited {
+        	color: #57616B;
+        	text-decoration: underline;
+    	}
+
+    	/* mouse over link */
+    	a:hover {
+        	color: #E01E18;
+        	text-decoration: underline;
+    	}
+
+    	/* selected link */
+    	a:active {
+        	color: #0000FF;
+        	text-decoration: none;
+    	}
+/*Sub header styling*/
+
+h2{
+   color: #ffffff;
+    text-shadow: 1px 1px #000000;
+
 }
 
-/* mouse over link */
-a:hover {
-    color: #E01E18;
+
+/*sub sub-header styling*/
+h3 {
+    font-weight: 200;
+    color: #60515a;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
 }
 
-/* selected link */
-a:active {
-    color: #0000FF;
+a {
+    text-align: center;
 }
