@@ -1,0 +1,39 @@
+/*CSS styling for project 2*/
+
+
+/*Main Body Background color*/
+body{
+    background-color: rgba(150,238,255,.3);
+}
+
+/*H1 styling with google fonts*/
+h1{
+    color: rgb(255,255,255);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 50pt;
+    line-height: 1;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+}
+
+
+
+/* unvisited link */
+a:link {
+    color: #3CAEE0;
+}
+
+/* visited link */
+a:visited {
+    color: #57616B;
+}
+
+/* mouse over link */
+a:hover {
+    color: #E01E18;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
