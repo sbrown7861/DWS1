@@ -4,93 +4,95 @@ body{
 
     background-color: rgba(60,174,224,.3);
     width: 80%;
-    margin:  auto;
+    margin: 20px auto;
     padding: 30px;
-
+    border: 20px;
 
 
 }
 
 /*H1 styling with google fonts*/
-	h1{
-    	color: #ffffff;
-    	font-family: 'PT Sans Narrow', sans-serif;
-    	font-size: 50pt;
-    	line-height: 1;
-    	text-align: center;
-    	text-shadow: 2px 2px #000000;
+h1{
+    color: #ffffff;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 50px;
+    line-height: 1;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
 
-	}
+}
 
 /*List styling*/
 
+div{
+    text-align: center;
+    border: double;
+    border-radius: 20%;
+    color: #ffffff;
+}
+
+nav {
+
+    height: 84px;
+    margin: 0 auto;
+    min-width: 696px;
+
+}
 
 
+li {
 
-	nav {
-
-    	height: 84px;
-	}
-/*Div so i can set the "table" to be centered*/
-	.table {
-    	display: table; /* Allow the centering to work */
-    	margin: 0 auto;
-	}
-
-
-	li {
-
-    	font-family: monospace;
-    	min-width: 696px;
-    	list-style: none;
-    	padding: 20px;
-    	text-align: center;
-    	display: inline;
-    	border-style: double;
-    	border-radius: 20%;
-    	font-size: 22pt;
-
-	}
+    font-family: monospace;
+    list-style:none;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 22px;
+    font-style: oblique;
+    display: inline;
+    text-align: center;
+}
 
     /* unvisited link */
-    	a:link {
-        	color: #3CAEE0;
-        	text-decoration: none;
-    	}
+    a:link {
+        color: #3CAEE0;
+        text-decoration: none;
+    }
 
     /* visited link */
-    	a:visited {
-        	color: #57616B;
-        	text-decoration: underline;
-    	}
+    a:visited {
+        color: #ffffff;
+        text-decoration: underline;
+    }
 
     /* mouse over link */
-    	a:hover {
-        	color: #E01E18;
-        	text-decoration: underline;
-    	}
+    a:hover {
+        color: #E01E18;
+        text-decoration: underline;
+    }
 
-    	/* selected link */
-    	a:active {
-        	color: #0000FF;
-        	text-decoration: none;
-    	}
+    /* selected link */
+    a:active {
+        color: #0000FF;
+        text-decoration: none;
+    }
 /*Sub header styling*/
 
-	h2{
-   		color: #ffffff;
-    	text-shadow: 1px 1px #000000;
-
-		}	
+h2{
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+    text-align: center;
+}
 
 
 /*sub sub-header styling*/
-	h3 {
-    	font-weight: 200;
-    	color: #60515a;
-    	box-shadow: 5px 5px 5px rgba(0,0,0,.3);
-	}
+h3 {
+    font-weight: 200;
+    color: #60515a;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+}
 
-	a {
-    	text-align: center;
+a {
+    text-align: center;
+
+
 }
