@@ -1,8 +1,8 @@
 
 /*Main Body Background color*/
 body{
-
-    background-color: rgba(60,174,224,.3);
+    
+    background:linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%), url("Images/guitar_shadow.png") no-repeat fixed right;
     width: 90%;
     margin: 0 auto;
     padding: 2%;
@@ -35,12 +35,16 @@ h1 {
     text-align: center;
     border: double;
     border-radius: 20%;
-    color: #ffffff;
+    color: #fff;
+    /*No need for repeat because I want it to repeat on it's own in it's container */
+    background-image:url("Images/presence.png");
 
 }
 
 p{
-    font-size: 1em;
+    font-size:1em;
+    color: #fff;
+
 }
 
 
@@ -64,7 +68,7 @@ li {
 
     /* visited link */
     a:visited {
-        color: #ffffff;
+        color: #000;
         text-decoration: underline;
     }
 
@@ -108,6 +112,7 @@ h3 {
     color: #60515a;
     box-shadow: 5px 5px 5px rgba(0,0,0,.3);
 }
+
 
 a {
     text-align: center;
