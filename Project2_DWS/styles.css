@@ -3,16 +3,16 @@
 body{
 
     background-color: rgba(60,174,224,.3);
-    width: 80%;
-    margin: 20px auto;
-    padding: 30px;
-    border: 20px;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 10px;
 
 
 }
 
 /*H1 styling with google fonts*/
-h1{
+h1 {
     color: #ffffff;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 50px;
@@ -24,18 +24,18 @@ h1{
 
 /*List styling*/
 
-div{
+
+
+
+#nav {
+
+    height: 50px;
+    margin: 0 auto;
+    min-width: 960px;
     text-align: center;
     border: double;
     border-radius: 20%;
     color: #ffffff;
-}
-
-nav {
-
-    height: 84px;
-    margin: 0 auto;
-    min-width: 696px;
 
 }
 
@@ -75,6 +75,20 @@ li {
         color: #0000FF;
         text-decoration: none;
     }
+
+#AG,#EG,#G{
+   width: 300px;
+   padding: 10px;
+   float: left;
+
+
+}
+
+
+
+
+
+
 /*Sub header styling*/
 
 h2{
