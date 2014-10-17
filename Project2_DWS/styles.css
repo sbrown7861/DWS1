@@ -3,9 +3,9 @@
 body{
 
     background-color: rgba(60,174,224,.3);
-    width: 960px;
+    width: 90%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2%;
     border: 10px;
 
 
@@ -15,7 +15,7 @@ body{
 h1 {
     color: #ffffff;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 50px;
+    font-size: 2.5em;
     line-height: 1;
     text-align: center;
     text-shadow: 2px 2px #000000;
@@ -29,9 +29,9 @@ h1 {
 
 #nav {
 
-    height: 50px;
+    height: 0.192%;
     margin: 0 auto;
-    min-width: 960px;
+    min-width: 90%;
     text-align: center;
     border: double;
     border-radius: 20%;
@@ -39,14 +39,18 @@ h1 {
 
 }
 
+p{
+    font-size: 1em;
+}
+
 
 li {
 
     font-family: monospace;
     list-style:none;
-    padding: 20px;
+    padding: 0.465%;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 1.5em;
     font-style: oblique;
     display: inline;
     text-align: center;
@@ -77,10 +81,10 @@ li {
     }
 
 #AG,#EG,#G{
-   width: 300px;
-   padding: 10px;
+   width: 31.3%;
+   margin: 1%;
    float: left;
-
+   background-color: rgba(190, 189, 195, .25);
 
 }
 
